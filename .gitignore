@@ -232,15 +232,26 @@ __marimo__/
 .streamlit/secrets.toml
 
 # macOS
-.DS_Store                    # Metadatos de carpetas
-.AppleDouble                 # Archivos de recursos antiguos
-.LSOverride                  # Atributos de archivos
-._*                          # Archivos de recursos
-.Spotlight-V100              # Índice de búsqueda
-.Trashes                     # Papelera
-.TemporaryItems              # Archivos temporales
-Icon\r                       # Ícono personalizado
-.icon                        # Ícono de carpeta
-*.swp                        # Archivos temporales de editores
-*.swo                        # Ídem
-*~                           # Archivos de backup de editores
+# Folder metadata
+.DS_Store
+# Legacy resource files
+.AppleDouble
+# File attributes
+.LSOverride
+# Resource files
+._*
+# Search index
+.Spotlight-V100
+# Trash
+.Trashes
+# Temporary files
+.TemporaryItems
+# Custom icon
+Icon\r
+# Folder icon
+.icon
+# Editor temporary files
+*.swp
+*.swo
+# Editor backup files
+*~
